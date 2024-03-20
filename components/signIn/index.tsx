@@ -5,7 +5,7 @@ import { Pressable, Text, View } from "react-native";
 import ArrowSvg from "../common/svgs/arrowSvg";
 import { router } from "expo-router";
 
-export default function Welcome() {
+export default function SignIn() {
   return (
     <View className="flex-1 items-center justify-around">
       <LinearGradient
@@ -23,9 +23,7 @@ export default function Welcome() {
       </View>
 
       <View className="flex justify-center items-center max-w-[350px] space-y-[15px]">
-        <Text className="text-white text-[32px] font-semibold">
-          Welcome to WaraChow
-        </Text>
+        <Text className="text-white text-[32px] font-semibold">Signin</Text>
 
         <Text className="text-white text-[20px] text-center font-light">
           Order the best meals in Lagos and have them delivered to your doorstep
