@@ -8,9 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "str-brown": "#694127",
-        "w-brown": "#DAD1C5",
-        "w-bg-brown": "#EDE7DC",
+        "brown_1": "#694127",
+        "brown_2": "#DAD1C5",
+        "brown_3": "#97745D",
+        "brown_4": "#EDE7DC",
       },
     },
   },

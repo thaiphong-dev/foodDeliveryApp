@@ -1,6 +1,6 @@
 import { LinearGradient } from "expo-linear-gradient";
 
-import { Pressable, Text, View } from "react-native";
+import { Pressable, Text, TouchableOpacity, View } from "react-native";
 
 import ArrowSvg from "../common/svgs/arrowSvg";
 import { router } from "expo-router";
@@ -32,12 +32,12 @@ export default function Welcome() {
           in little or no time. Doesn’t that sound delicious???
         </Text>
 
-        <Pressable
+        <TouchableOpacity
           onPress={() => router.push("/signIn/")}
           className="w-[277px] h-[50px] bg-white flex justify-center items-center rounded-[34px]"
         >
           <ArrowSvg />
-        </Pressable>
+        </TouchableOpacity>
       </View>
     </View>
   );
